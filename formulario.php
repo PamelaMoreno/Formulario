@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8"
 	</head>
-	
-	<?php
-		      if(isset($_GET)){
-			if($_GET['error']==1){
-		      		echo "favor de corregir los datos del formulario";
-		      	}
-		      }
-	?>
+
+<?php
+	if(isset($_GET)){
+		if($_GET['error']==1){
+			echo "favor de corregir los datos del formulario";
+		}
+	}
+?>
 	
 	<body>
 		<p>Favor de ingresar los siguientes datos: </p>
